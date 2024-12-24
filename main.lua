@@ -1,5 +1,5 @@
 
-local appleSignIn = require "appleSignIn"
+local appleSignIn = require "plugin.appleSignIn"
 local json = require "json"
 local bg = display.newRect( display.contentCenterX, display.contentCenterY, display.actualContentWidth, display.actualContentHeight )
 bg:setFillColor(1)
