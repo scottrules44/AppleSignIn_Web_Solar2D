@@ -132,7 +132,7 @@ m.show = function(typeS, listener, credentials)
                 end
     
                 -- Close the WebView after processing the result
-                webView:removeSelf()
+                display.remove(popupGroup)
                 webView = nil
             end
         end
